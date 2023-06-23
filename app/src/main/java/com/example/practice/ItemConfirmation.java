@@ -27,7 +27,7 @@ public class ItemConfirmation extends AppCompatActivity {
         Button backActivitySwitchButton = (Button) findViewById(R.id.back_button);
         backActivitySwitchButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                Intent intent = new Intent(getApplication(), ItemRegistration.MainActivity.class);
+                Intent intent = new Intent(getApplication(), MainActivity.class);
                 startActivity(intent);
             }
         });
