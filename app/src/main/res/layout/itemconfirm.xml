@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemConfirmation">
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KeyMinderにアイテムを載せてください。" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="次へ" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="戻る" />
+    </LinearLayout>
+
+</RelativeLayout>
